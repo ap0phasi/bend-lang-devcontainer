@@ -1,0 +1,16 @@
+{
+	"name": "bend-cuda-rust",
+	"context": ".",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		"--name", "bend-cuda-rust",
+		"--gpus=all"
+	],
+    "customizations": {
+        "vscode": {
+          "extensions": [
+            "rust-lang.rust"
+          ]
+        }
+    }
+}
